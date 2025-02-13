@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_stuff_dids",
+  "info": {
+    "displayName": "stuffDid",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

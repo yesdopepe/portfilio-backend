@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_stacks",
+  "info": {
+    "displayName": "Stack",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "Tech": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "expiriences",
+  "info": {
+    "singularName": "expirience",
+    "pluralName": "expiriences",
+    "displayName": "Expirience",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "companyImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "jobType": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "stuffIDid": {
+      "displayName": "stuffDid",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.stuff-did"
+    }
+  }
+}
